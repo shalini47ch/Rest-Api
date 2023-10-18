@@ -3,4 +3,10 @@
 3.adding start command in package.json start:nodemon index.js 
 4.creating a separate routes folder to handle all the routing which we will do for our api's 
 
+If you want to completly override the information then use the put method but in case you need to modify only a part of your data then use the patch method
 
+
+Patch is mainly used for partial updation of data .
+All the responses of these methods should be tested in postman.
+
+Creating a separate controllers folder which will have 
